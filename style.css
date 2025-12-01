@@ -263,11 +263,20 @@ footer {
     }
 
     .sauces-table,
-    .extra-table,
     .location-table {
         width: 95%;
     }
+.extras-list {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: 500;
+}
 
+.extras-list li {
+    margin-bottom: 6px;
+}
 section {
     margin-bottom: 50px;
 }
