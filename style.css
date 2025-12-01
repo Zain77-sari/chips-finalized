@@ -1,0 +1,273 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+    background: #f9f9f9;
+    text-align: center;
+    padding-top: 0;
+    line-height: 1.6;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: linear-gradient(135deg, #ff8c00, #ffa500);
+    padding: 15px 0;
+    margin: 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 30px;
+    
+}
+
+.navlink {
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    font-size: 18px;
+    padding: 10px 20px;
+   
+}
+
+.navlink:hover {
+    background: white;
+    color: #ff8c00;
+    
+}
+
+.banner {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    position: relative;
+    top: 0;
+}
+
+#banner-img {
+    width: 100%;
+    height: 650px;
+    object-fit: cover;
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+.section {
+    padding: 60px 20px;
+    margin: 40px auto;
+    max-width: 1200px;
+    background: white;
+   
+}
+
+.menu {
+    padding: 60px 20px;
+    margin: 40px auto;
+    max-width: 1200px;
+    background: white;
+    border-radius: 10px;
+    
+}
+
+
+.table {
+    margin: 30px auto;
+    border: 4px solid #ff8c00;
+    border-collapse: collapse;
+    width: 80%;
+    max-width: 900px;
+    background: white;
+    
+}
+
+.table th {
+    background: linear-gradient(135deg, #ff8c00, #ffa500);
+    color: white;
+    padding: 15px;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.table td {
+    border: 1px solid #ddd;
+    padding: 15px;
+    font-size: 16px;
+}
+
+.table tr:hover {
+    background: #fff5e6;
+    transition: background 0.3s ease;
+}
+
+.menu-table .menu-item {
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.menu-table .menu-item:hover {
+    background: #ffe4b3;
+    transform: scale(1.02);
+}
+
+.food-img {
+    width: 120px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 8px;
+    border: 3px solid #ff8c00;
+    transition: transform 0.3s ease;
+}
+
+.food-img:hover {
+    transform: scale(1.1);
+}
+
+.sauces-table {
+    width: 70%;
+}
+
+.sauces-table td {
+    padding: 12px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.sauces-table tr:nth-child(odd) {
+    background: #fff7e6;
+}
+
+.sauces-table tr:nth-child(even) {
+    background: #ffe7c2;
+}
+
+.sauces-table tr:hover {
+    background: #ffd699;
+}
+
+.extra-table {
+    width: 50%;
+}
+
+.extra-table th {
+    font-size: 20px;
+}
+
+.extra-table td {
+    font-size: 16px;
+    padding: 12px;
+}
+
+.vat {
+    margin-top: 40px;
+    font-weight: bold;
+    color: #ff8c00;
+    font-size: 18px;
+    padding: 15px;
+    background: #fff5e6;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.location-table {
+    width: 85%;
+}
+
+
+#contactForm {
+    margin: 40px auto;
+    max-width: 600px;
+    text-align: left;
+    padding: 30px;
+    background: #f9f9f9;
+    border-radius: 10px;
+    
+}
+
+label {
+    font-weight: bold;
+    font-size: 16px;
+    color: #333;
+}
+
+
+.textarea{
+    outline: none;
+    border-color: #ff8c00;
+    
+}
+
+.submit-btn {
+    border: none;
+    background: transparent;
+    padding: 0;
+    margin-top: 10px;
+}
+
+.submit-btn:hover {
+    transform: scale(1.1);
+}
+
+.submit-img {
+    width: 120px;
+    height: auto;
+    border-radius: 5px;
+    
+}
+
+footer {
+    background: linear-gradient(135deg, #ff8c00, #ffa500);
+    color: white;
+    padding: 30px 20px;
+    margin-top: 60px;
+    font-size: 16px;
+}
+
+
+    .banner {
+        margin-top: 120px;
+    }
+
+    #banner-img {
+        height: 400px;
+    }
+
+
+    .table {
+        width: 95%;
+        font-size: 14px;
+    }
+
+    .food-img {
+        width: 80px;
+        height: 70px;
+    }
+
+    #contactForm {
+        padding: 20px;
+    }
+
+    textarea {
+        width: 100%;
+    }
+
+    .sauces-table,
+    .extra-table,
+    .location-table {
+        width: 95%;
+    }
+
+section {
+    margin-bottom: 50px;
+}
