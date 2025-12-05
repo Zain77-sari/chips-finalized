@@ -352,3 +352,22 @@ section {
     .extra-table {
         width: 95%;
     }
+
+.orderhere-button-container {
+    text-align: center;
+    padding: 40px 20px;
+    background: white;
+}
+
+.order-here-btn {
+    width: 120px;
+    height: auto;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+.order-here-btn:hover {
+    transform: scale(1.1);
+}
