@@ -367,3 +367,20 @@ section {
 .order-here-btn:hover {
     transform: scale(1.1);
 }
+.location-link-container {
+       text-align: center;
+       margin-top: 20px;
+   }
+   
+   .location-link {
+       display: inline-block;
+       transition: transform 0.3s ease;
+   }
+   
+   .location-link:hover {
+       transform: scale(1.1);
+   }
+   
+   .location-btn-img {
+       width: 120px;
+   }
