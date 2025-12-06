@@ -373,21 +373,17 @@ section {
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
     border-radius: 10px;
 }
+.location-text-link {
+    display: inline-block;
+    margin-top: 15px;
+    color: #ff8c00;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: all 0.3s ease;
 }
-.location-link-container {
-       text-align: center;
-       margin-top: 20px;
-   }
-   
-   .location-link {
-       display: inline-block;
-       transition: transform 0.3s ease;
-   }
-   
-   .location-link:hover {
-       transform: scale(1.1);
-   }
-   
-   .location-btn-img {
-       width: 120px;
-   }
+
+.location-text-link:hover {
+    color: #ffa500;
+    text-decoration: underline;
+}
