@@ -72,6 +72,8 @@ nav {
     height: auto;
     cursor: pointer;
     transition: transform 0.3s ease;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
 }
 
 .order-now-btn:hover {
@@ -357,21 +359,18 @@ section {
     margin: 30px 0;
 }
 
+
 .order-here-btn {
-    display: inline-block;
+    width: 120px;
+    height: auto;
+    cursor: pointer;
     transition: transform 0.3s ease;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
 }
 
 .order-here-btn:hover {
     transform: scale(1.1);
-}
-
-.order-btn-img {
-    width: 120px;
-    height: auto;
-    cursor: pointer;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-    border-radius: 10px;
 }
 .location-text-link {
     display: inline-block;
