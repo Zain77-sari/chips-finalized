@@ -72,8 +72,6 @@ nav {
     height: auto;
     cursor: pointer;
     transition: transform 0.3s ease;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-    border-radius: 10px;
 }
 
 .order-now-btn:hover {
@@ -364,8 +362,6 @@ section {
     height: auto;
     cursor: pointer;
     transition: transform 0.3s ease;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-    border-radius: 10px;
 }
 
 .order-here-btn:hover {
